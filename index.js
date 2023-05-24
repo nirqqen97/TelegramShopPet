@@ -15,7 +15,7 @@ bot.on('message', async (msg) => {
         await bot.sendMessage(chatId, "появится кнопка снизу", {
             reply_markup: {
                 inline_keyboard: [
-                    [{ text: 'do a order', web_app: { url: webAppUrl } }]
+                    [{ text: 'do a order', web_app: { url: webAppUrl } + '/form' }]
                 ]
             }
         });
