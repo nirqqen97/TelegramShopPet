@@ -4,7 +4,7 @@ const token = "6146057071:AAFnH4AC-dTWv4LODq9fgN8kP6_5vl7Iolg"
 
 const bot = new TelegramBot(token, { polling: true });
 
-const webAppUrl = 'https://646df0d49ad853000887936a--incomparable-selkie-7724d9.netlify.app/';
+const webAppUrl = 'https://incomparable-selkie-7724d9.netlify.app/';
 
 bot.on('message', async (msg) => {
     const chatId = msg.chat.id;
